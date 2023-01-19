@@ -1,7 +1,7 @@
 
 #Hacemos las importaciones necesarias
 from fastapi import FastAPI
-from routes.movies import movies
+from .routes.movies import movies
 
 #Creamos el ejecutable
 app = FastAPI(

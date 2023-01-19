@@ -7,7 +7,7 @@ import pandas as pd
 from fastapi import APIRouter, HTTPException
 from typing import List, Union
 #importamos el esquema/estructura para poder trabajar con los datos
-from schemas.movies import Movies, Cantidad_Peliculas
+from .schemas.movies import Movies, Cantidad_Peliculas
 
 
 '''
